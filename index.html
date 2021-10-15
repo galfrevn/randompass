@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator | Galfrevn</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" ></script>
+    <!-- Styling -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="pw-container">
+        <div class="pw-header">
+            <div class="pw">
+                <span id="pw"> Password here</span>
+                <button class="copy-btn" id="copy"><i class="fas fa-copy"></i></button>
+            </div>
+        </div>
+        <div class="pw-body">
+            <div class="form-control">
+                <label for="length">Password Length</label>
+                <input id="len" value="10" min="6" max=20 type="number">
+            </div>
+            <div class="form-control">
+                <label for="upper">Contains Uppercase Letters</label>
+                <input id="upper" type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="lower">Contains Lowecase Letters</label>
+                <input id="lower" type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="number">Contains Numbers</label>
+                <input id="number" type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="symbol">Contains Symbols</label>
+                <input id="symbol" type="checkbox">
+            </div>
+            <button class="generate" id="generate">Generate Password</button>
+        </div>
+    </div>
+
+    <div class="ad">
+        <a href="https://www.instagram.com/galfre.v"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.github.com/galfrevn" style="margin-left: 10px;"><i class="fa fa-github"></i></a>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  background-color: rgb(226, 226, 226);
+  color: #0f1b20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.pw-container {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 270px;
+}
+.pw-header {
+  padding: 1rem;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: gray;
+}
+.pw {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.copy-btn {
+  border: none;
+  background-color: rgb(226, 226, 226);
+  color: gray;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.copy-btn:hover {
+  color: rgb(107, 107, 107);
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+#len {
+  width: 36px;
+  margin-bottom: 10px;
+}
+
+.generate {
+  padding: 1rem;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  border: none;
+  font-family: "Poppins";
+  color: #0f1b20;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 20px;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.generate:hover {
+  color: rgb(226, 226, 226);
+  background-color: #0f1b20;
+}
+.ad {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 20px;
+  color: #0f1b20;
+}
